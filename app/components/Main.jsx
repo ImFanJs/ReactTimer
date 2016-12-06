@@ -5,10 +5,9 @@ export default class Main extends React.Component {
   render () {
     return (
       <div>
-        <div>
-          <div>
-            <Nav/>
-            <h1 className='text-center'></h1>
+        <Nav />
+        <div className='row'>
+          <div className='column medium-4 large-6 small-centered'>
             {this.props.children}
           </div>
         </div>
